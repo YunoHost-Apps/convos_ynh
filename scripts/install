@@ -29,6 +29,8 @@ pushd $install_dir/script
 	ynh_hide_warnings ./convos cpanm EV
 popd
 
+chown -R "$app:www-data" "$install_dir"
+
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
