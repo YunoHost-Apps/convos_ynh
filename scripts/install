@@ -20,7 +20,7 @@ ynh_setup_source --dest_dir="$install_dir"
 mkdir -p "$install_dir/data"
 
 #=================================================
-# AINSTALL CONVOS
+# INSTALL CONVOS
 #=================================================
 ynh_script_progression "Installing $app..."
 
