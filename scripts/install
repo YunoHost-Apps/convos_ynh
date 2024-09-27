@@ -17,12 +17,17 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-ynh_hide_warnings /var/www/"$app"/script/convos install
-
-# enable EV module
-ynh_hide_warnings /var/www/"$app"/script/convos cpanm EV
-
 mkdir -p "$install_dir/data"
+
+#=================================================
+# AINSTALL CONVOS
+#=================================================
+ynh_script_progression "Installing $app..."
+
+pushd $install_dir/script
+	ynh_hide_warnings ./convos install
+	ynh_hide_warnings ./convos cpanm EV
+popd
 
 #=================================================
 # APP INITIAL CONFIGURATION
@@ -49,7 +54,7 @@ ynh_config_add_logrotate
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
