@@ -11,16 +11,6 @@ ynh_script_progression "Restoring the app main directory..."
 ynh_restore "$install_dir"
 
 #=================================================
-# INSTALL CONVOS
-#=================================================
-ynh_script_progression "Installing Convos' dependancies..."
-
-ynh_hide_warnings /var/www/"$app"/script/convos install
-
-# enable EV module
-ynh_hide_warnings /var/www/"$app"/script/convos cpanm EV
-
-#=================================================
 # RESTORE SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression "Restoring system configurations related to $app..."
