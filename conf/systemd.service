@@ -9,8 +9,12 @@ KillMode=process
 
 User=__APP__
 Group=__APP__
+Environment="CONVOS_REVERSE_PROXY=1"
+Environment="CONVOS_LOCAL_SECRET=__CONVOS_LOCAL_SECRET__"
+Environment="CONVOS_REQUEST_BASE=https://__DOMAIN____PATH__"
+Environment="CONVOS_HOME=__INSTALL_DIR__/data"
 WorkingDirectory=__INSTALL_DIR__/
-EnvironmentFile="__INSTALL_DIR__/.env"
+#EnvironmentFile="__INSTALL_DIR__/.env"
 ExecStart=__INSTALL_DIR__/script/convos daemon --listen http://127.0.0.1:__PORT__
 Restart=on-failure
 
