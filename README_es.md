@@ -29,6 +29,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 
 ![Captura de Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
 
+## :red_circle: Características no deseables
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
+
 ## Documentaciones y recursos
 
 - Sitio web oficial: <http://convos.chat/>
