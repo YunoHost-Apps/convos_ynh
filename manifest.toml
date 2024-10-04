@@ -20,7 +20,8 @@ admindoc = "https://convos.chat/doc/"
 code = "https://github.com/convos-chat/convos"
 
 [integration]
-yunohost = '>= 11.2'
+yunohost = '>= 11.2.30'
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -33,6 +34,10 @@ ram.runtime = "50M"
 
     [install.domain]
     type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/convos"
 
     [install.init_main_permission]
     type = "group"
