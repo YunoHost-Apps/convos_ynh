@@ -12,8 +12,6 @@ convos_local_secret=$(ynh_string_random --length=30)
 ynh_app_setting_set --key=convos_local_secret --value="$convos_local_secret"
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
@@ -27,7 +25,6 @@ ynh_hide_warnings /var/www/"$app"/script/convos cpanm EV
 
 mkdir -p "$install_dir/data"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R "$app:www-data" "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
