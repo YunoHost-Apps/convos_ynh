@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Convos untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![Status kerja](https://apps.yunohost.org/badge/state/convos)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/convos)
 
 [![Pasang Convos dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## Tangkapan Layar
 
 ![Tangkapan Layar pada Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: Antifitur
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
 
 ## Dokumentasi dan sumber daya
 

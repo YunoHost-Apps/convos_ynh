@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Convos YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/convos)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/convos)
 
 [![Instalatu Convos YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## Pantaila-argazkiak
 
 ![Convos(r)en pantaila-argazkia](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: Ezaugarri zalantzagarriak
+
+- **Paketea ez da erabat librea**: Aplikazio honen YunoHost paketeak lizentzia librea du orokorrean, baina bere erabilera mugatzen duten klausulekin.
 
 ## Dokumentazioa eta baliabideak
 

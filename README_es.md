@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Convos para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![Estado funcional](https://apps.yunohost.org/badge/state/convos)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/convos)
 
 [![Instalar Convos con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## Capturas
 
 ![Captura de Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: Características no deseables
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
 
 ## Documentaciones y recursos
 

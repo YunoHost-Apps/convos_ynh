@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Convos voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/convos)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/convos)
 
 [![Convos met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## Schermafdrukken
 
 ![Schermafdrukken van Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: Anti-eigenschappen
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
 
 ## Documentatie en bronnen
 
