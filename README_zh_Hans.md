@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Convos
 
-[![集成程度](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![工作状态](https://apps.yunohost.org/badge/state/convos)
+![维护状态](https://apps.yunohost.org/badge/maintained/convos)
 
 [![使用 YunoHost 安装 Convos](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## 截图
 
 ![Convos 的截图](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: 负面特征
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
 
 ## 文档与资源
 

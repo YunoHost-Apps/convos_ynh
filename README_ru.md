@@ -5,7 +5,9 @@
 
 # Convos для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/convos.svg)](https://ci-apps.yunohost.org/ci/apps/convos/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/convos.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/convos.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
+![Состояние работы](https://apps.yunohost.org/badge/state/convos)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/convos)
 
 [![Установите Convos с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=convos)
 
@@ -28,6 +30,10 @@ Want to use Convos on your phone? No problem! Convos is fully responsive and fit
 ## Снимки экрана
 
 ![Снимок экрана Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
+
+## :red_circle: Анти-функции
+
+- **Not totally free package**: The YunoHost package of this app is under an overall free license, but with clauses that may restrict its use.
 
 ## Документация и ресурсы
 
