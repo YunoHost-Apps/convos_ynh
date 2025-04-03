@@ -1,8 +1,5 @@
 #!/bin/bash
-#### App file generated with YoloGen, the YunoHost app generator, version 0.8.3.
 
-#=================================================
-# GENERIC START
 #=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
@@ -11,9 +8,6 @@
 source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
-#=================================================
-# DECLARE DATA AND CONF FILES TO BACKUP
-#=================================================
 ynh_print_info --message="Declaring files to be backed up..."
 
 #=================================================
@@ -23,13 +17,16 @@ ynh_print_info --message="Declaring files to be backed up..."
 ynh_backup --src_path="$install_dir"
 
 #=================================================
-# SYSTEM CONFIGURATION
+# BACKUP SYSTEM CONFIGURATION
 #=================================================
 
+# Backup the NGINX configuration
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
+# Backup the systemd service unit
 ynh_backup --src_path="/etc/systemd/system/$app.service"
 
+# Backup the logrotate configuration
 ynh_backup --src_path="/etc/logrotate.d/$app"
 
 #=================================================
