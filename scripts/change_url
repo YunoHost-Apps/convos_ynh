@@ -1,8 +1,5 @@
 #!/bin/bash
-### App file generated with YoloGen, the Yunohost app generator, version 0.8.3.
 
-#=================================================
-# GENERIC STARTING
 #=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
@@ -11,19 +8,36 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
+# STOP SYSTEMD SERVICE
+#=================================================
+ynh_script_progression "Stopping $app's systemd service..."
+
+ynh_systemd_action --service_name="$app" --action="stop"
+
+#=================================================
 # MODIFY URL IN NGINX CONF
 #=================================================
 ynh_script_progression --message="Updating NGINX web server configuration..."
 
+# this will most likely adjust NGINX config correctly
 ynh_change_url_nginx_config
 
 #=================================================
-# MODIFY URL IN SYSTEMD CONF
+# UPDATE A CONFIG FILE
 #=================================================
+ynh_script_progression "Updating $app's configuration files..."
 
-ynh_add_systemd_config
+ynh_add_config --template=".env" --destination="$install_dir/.env"
 
-ynh_systemd_action --service_name="$app" --action="restart" --log_path="/var/log/$app/$app.log"
+chmod 400 "$install_dir/.env"
+chown "$app:$app" "$install_dir/.env"
+
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting $app's systemd service..."
+
+ynh_systemd_action --service_name="$app" --action="start" --line_match="application available at" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT
