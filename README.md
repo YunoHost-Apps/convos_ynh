@@ -4,7 +4,7 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/convos.png" width="32px" alt="Logo of Convos">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/convos.png" width="32px" alt="Logo of Convos">
   Convos, packaged for YunoHost
 </h1>
 
@@ -12,7 +12,7 @@ Multiuser IRC Web client
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](http://convos.chat/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://convos.chat/#instant-demo)
-![Version: 8.07~ynh2](https://img.shields.io/badge/Version-8.07~ynh2-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 8.07~ynh2](https://img.shields.io/badge/Version-8.07~ynh2-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/convos/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/convos"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -20,6 +20,8 @@ Multiuser IRC Web client
 </div>
 
 ## 📦 Developer info
+
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/convos)](https://ci-apps.yunohost.org/ci/apps/convos/)
 
 🛠️ Upstream Convos repository: <https://github.com/convos-chat/convos>
 
