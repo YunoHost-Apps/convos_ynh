@@ -29,6 +29,8 @@ ynh_hide_warnings /var/www/"$app"/script/convos cpanm EV
 
 mkdir -p "$install_dir/data"
 
+chown -R "$app:www-data" "$install_dir"
+
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
