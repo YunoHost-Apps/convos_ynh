@@ -1,5 +1,5 @@
 [Unit]
-Description=Convos server
+Description=Convos: IRC Web client
 After=network.target nginx.service
 
 [Service]
