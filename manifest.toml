@@ -7,7 +7,7 @@ name = "Convos"
 description.en = "Multiuser IRC Web client"
 description.fr = "Client IRC Web multi-utilisateurs"
 
-version = "8.07~ynh2"
+version = "8.07~ynh3"
 
 maintainers = [ "OniriCorpe" ]
 
@@ -25,7 +25,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = true
 
 disk = "25M"
