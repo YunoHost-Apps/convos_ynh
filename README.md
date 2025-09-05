@@ -12,12 +12,16 @@ Multiuser IRC Web client
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](http://convos.chat/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://convos.chat/#instant-demo)
-[![Version: 8.07~ynh3](https://img.shields.io/badge/Version-8.07~ynh3-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/convos/)
+[![Version: 8.07~ynh3](https://img.shields.io/badge/Version-8.07~ynh3-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/convos/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/convos"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/convos_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
+
+## Screenshots
+![Screenshot of Convos](./doc/screenshots/2020-05-28-convos-chat.jpg)
 
 ## 📦 Developer info
 
